@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "charliehexx",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

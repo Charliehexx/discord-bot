@@ -1,0 +1,31 @@
+{
+  "name": "charliehexx/hack-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create/prefix/moon.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!moon"
+      }
+    },
+    "functions/events/discord/message/create/prefix/bl.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!bl"
+      }
+    },
+    "functions/events/discord/message/create/prefix/adi.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!adi"
+      }
+    },
+    "functions/events/discord/message/create/prefix/rick.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!rick"
+      }
+    }
+  }
+}
